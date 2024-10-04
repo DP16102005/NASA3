@@ -1,18 +1,42 @@
 {
-  "name": "foundation-icon-fonts",
+  "name": "foundation-sites",
+  "version": "6.1.2",
   "main": [
-    "foundation-icons.css"
+    "scss/foundation.scss",
+    "dist/foundation.js"
   ],
-  "ignore": [],
-  "homepage": "https://github.com/zurb/foundation-icon-fonts",
-  "_release": "afed003521",
-  "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "afed003521ff971bc614de68bba2676e16ce39f4"
+  "ignore": [
+    "config",
+    "docs",
+    "gulp",
+    "lib",
+    "test",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "meteor-README.md",
+    "package.js",
+    "package.json",
+    "sache.json",
+    ".editorconfig",
+    ".npm",
+    ".gitignore",
+    ".npmignore",
+    ".versions"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "what-input": "~1.1.2"
   },
-  "_source": "git://github.com/zurb/foundation-icon-fonts.git",
-  "_target": "*",
-  "_originalSource": "foundation-icon-fonts",
+  "homepage": "https://github.com/zurb/foundation-sites",
+  "_release": "6.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v6.1.2",
+    "commit": "b7cedf57265b8c8ed9b746096cc2dd9dade9c55c"
+  },
+  "_source": "git://github.com/zurb/foundation-sites.git",
+  "_target": "~6.1.2",
+  "_originalSource": "foundation-sites",
   "_direct": true
 }
